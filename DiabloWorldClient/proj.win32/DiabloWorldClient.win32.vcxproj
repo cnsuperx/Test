@@ -1,0 +1,624 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E8465CDC-C760-4BFE-8CDF-3EB1506BFC26}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;..\Classes;$(SolutionDir)cocos2dx;$(SolutionDir)cocos2dx\include;$(SolutionDir)cocos2dx\kazmath\include;$(SolutionDir)cocos2dx\platform\win32;$(SolutionDir)cocos2dx\platform\third_party\win32;$(SolutionDir)cocos2dx\platform\third_party\win32\OGLES;$(SolutionDir)external;$(SolutionDir)CocosDenshion\include;E:\workplace_vs\cocos2d-x-2.1.4\cocos2dx\include;E:\workplace_vs\cocos2d-x-2.1.4\extensions;E:\workplace_vs\cocos2d-x-2.1.4\extensions\GUI\CCScrollView;E:\workplace_vs\cocos2d-x-2.1.4\cocos2dx\platform\third_party\win32\pthread;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;STRICT;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS_DEBUG;COCOS2D_DEBUG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcocos2d.lib;opengl32.lib;glew32.lib;libBox2d.lib;libCocosDenshion.lib;libExtensions.lib;pthreadVCE2.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>DiabloWorldClient.h</HeaderFileName>
+      <InterfaceIdentifierFileName>DiabloWorldClient_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>DiabloWorldClient_p.c</ProxyFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)/DiabloWorldClient.tlb</TypeLibraryName>
+      <DllDataFileName />
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;..\Classes;$(SolutionDir)cocos2dx;$(SolutionDir)cocos2dx\include;$(SolutionDir)cocos2dx\kazmath\include;$(SolutionDir)cocos2dx\platform\win32;$(SolutionDir)cocos2dx\platform\third_party\win32;$(SolutionDir)cocos2dx\platform\third_party\win32\OGLES;$(SolutionDir)external;$(SolutionDir)CocosDenshion\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ExceptionHandling />
+      <DebugInformationFormat />
+      <PreprocessorDefinitions>WIN32;_WINDOWS;STRICT;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGSNDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcocos2d.lib;opengl32.lib;glew32.lib;libBox2d.lib;libCocosDenshion.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>DiabloWorldClient.h</HeaderFileName>
+      <InterfaceIdentifierFileName>DiabloWorldClient_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>DiabloWorldClient_p.c</ProxyFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)/DiabloWorldClient.tlb</TypeLibraryName>
+      <DllDataFileName />
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AnimatePacker.h" />
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\buzhen\heroItem.h" />
+    <ClInclude Include="..\Classes\buzhen\newBuZhen.h" />
+    <ClInclude Include="..\Classes\CData.h" />
+    <ClInclude Include="..\Classes\employment\friendemploy.h" />
+    <ClInclude Include="..\Classes\employment\friendemploycell.h" />
+    <ClInclude Include="..\Classes\employment\friendemploylog.h" />
+    <ClInclude Include="..\Classes\employment\friendemploypop.h" />
+    <ClInclude Include="..\Classes\employment\friendinfo.h" />
+    <ClInclude Include="..\Classes\employment\friendmain.h" />
+    <ClInclude Include="..\Classes\extentionClass\MyMenu.h" />
+    <ClInclude Include="..\Classes\extentionClass\MyTableView.h" />
+    <ClInclude Include="..\Classes\extentionClass\network\ByteBuffer.h" />
+    <ClInclude Include="..\Classes\extentionClass\network\message.h" />
+    <ClInclude Include="..\Classes\extentionClass\network\MessageHandler.h" />
+    <ClInclude Include="..\Classes\extentionClass\network\MessageQueue.h" />
+    <ClInclude Include="..\Classes\extentionClass\network\MSAutoReleasePool.h" />
+    <ClInclude Include="..\Classes\extentionClass\network\SocketClient.h" />
+    <ClInclude Include="..\Classes\extentionClass\network\SocketManager.h" />
+    <ClInclude Include="..\Classes\extentionClass\network\Util.h" />
+    <ClInclude Include="..\Classes\FireWork.h" />
+    <ClInclude Include="..\Classes\friendemploy.h" />
+    <ClInclude Include="..\Classes\friendemploycell.h" />
+    <ClInclude Include="..\Classes\friendemploylog.h" />
+    <ClInclude Include="..\Classes\friendemploypop.h" />
+    <ClInclude Include="..\Classes\friendinfo.h" />
+    <ClInclude Include="..\Classes\friendmain.h" />
+    <ClInclude Include="..\Classes\GameOver.h" />
+    <ClInclude Include="..\Classes\goodsItem.h" />
+    <ClInclude Include="..\Classes\headFile\resource.h" />
+    <ClInclude Include="..\Classes\headFile\socketIp_Host.h" />
+    <ClInclude Include="..\Classes\headFile\zhujiemian\ArenaWindow.h" />
+    <ClInclude Include="..\Classes\headFile\zhujiemian\CustomPop.h" />
+    <ClInclude Include="..\Classes\headFile\zhujiemian\homePage.h" />
+    <ClInclude Include="..\Classes\headFile\zhujiemian\LevelMap.h" />
+    <ClInclude Include="..\Classes\headFile\zhujiemian\MailInfo.h" />
+    <ClInclude Include="..\Classes\headFile\zhujiemian\MailRead.h" />
+    <ClInclude Include="..\Classes\headFile\zhujiemian\MailRenderer.h" />
+    <ClInclude Include="..\Classes\headFile\zhujiemian\MailWindow.h" />
+    <ClInclude Include="..\Classes\headFile\zhujiemian\MailWrite.h" />
+    <ClInclude Include="..\Classes\headFile\zhujiemian\myobject.h" />
+    <ClInclude Include="..\Classes\headFile\zhujiemian\popwindow.h" />
+    <ClInclude Include="..\Classes\headFile\zhujiemian\zhuangtaiLoad.h" />
+    <ClInclude Include="..\Classes\hecheng\CHecheng.h" />
+    <ClInclude Include="..\Classes\hecheng\hcbag.h" />
+    <ClInclude Include="..\Classes\hecheng\hcgoodsitem.h" />
+    <ClInclude Include="..\Classes\hecheng\hcitemdata.h" />
+    <ClInclude Include="..\Classes\hecheng\hctooltip.h" />
+    <ClInclude Include="..\Classes\HelloWorldScene.h" />
+    <ClInclude Include="..\Classes\json\include\json\autolink.h" />
+    <ClInclude Include="..\Classes\json\include\json\config.h" />
+    <ClInclude Include="..\Classes\json\include\json\features.h" />
+    <ClInclude Include="..\Classes\json\include\json\forwards.h" />
+    <ClInclude Include="..\Classes\json\include\json\json.h" />
+    <ClInclude Include="..\Classes\json\include\json\reader.h" />
+    <ClInclude Include="..\Classes\json\include\json\value.h" />
+    <ClInclude Include="..\Classes\json\include\json\writer.h" />
+    <ClInclude Include="..\Classes\json\src\lib_json\json_batchallocator.h" />
+    <ClInclude Include="..\Classes\LodingLayer.h" />
+    <ClInclude Include="..\Classes\loginregister\LayerLogin.h" />
+    <ClInclude Include="..\Classes\loginregister\logo.h" />
+    <ClInclude Include="..\Classes\loginregister\startAnimate.h" />
+    <ClInclude Include="..\Classes\loginregister\xuanren.h" />
+    <ClInclude Include="..\Classes\mycomponent\MyTableViewCell.h" />
+    <ClInclude Include="..\Classes\next.h" />
+    <ClInclude Include="..\Classes\personalinfo.h" />
+    <ClInclude Include="..\Classes\PersonFire.h" />
+    <ClInclude Include="..\Classes\Singleton.h" />
+    <ClInclude Include="..\Classes\skillList.h" />
+    <ClInclude Include="..\Classes\TestCpp.h" />
+    <ClInclude Include="..\Classes\TestOC.h" />
+    <ClInclude Include="..\Classes\TeXiao.h" />
+    <ClInclude Include="..\Classes\tiplayer.h" />
+    <ClInclude Include="..\Classes\UserDataModel.h" />
+    <ClInclude Include="..\Classes\utils\commond.h" />
+    <ClInclude Include="..\Classes\utils\language\LanguageManager.h" />
+    <ClInclude Include="..\Classes\utils\xml\MyXmlParser.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AnimatePacker.cpp" />
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\buzhen\heroItem.cpp" />
+    <ClCompile Include="..\Classes\buzhen\newBuZhen.cpp" />
+    <ClCompile Include="..\Classes\CData.cpp" />
+    <ClCompile Include="..\Classes\employment\friendemploy.cpp" />
+    <ClCompile Include="..\Classes\employment\friendemploycell.cpp" />
+    <ClCompile Include="..\Classes\employment\friendemploylog.cpp" />
+    <ClCompile Include="..\Classes\employment\friendemploypop.cpp" />
+    <ClCompile Include="..\Classes\employment\friendinfo.cpp" />
+    <ClCompile Include="..\Classes\employment\friendmain.cpp" />
+    <ClCompile Include="..\Classes\extentionClass\MyMenu.cpp" />
+    <ClCompile Include="..\Classes\extentionClass\MyTableView.cpp" />
+    <ClCompile Include="..\Classes\extentionClass\network\ByteBuffer.cpp" />
+    <ClCompile Include="..\Classes\extentionClass\network\message.cpp" />
+    <ClCompile Include="..\Classes\extentionClass\network\MessageQueue.cpp" />
+    <ClCompile Include="..\Classes\extentionClass\network\SocketClient.cpp" />
+    <ClCompile Include="..\Classes\extentionClass\network\SocketManager.cpp" />
+    <ClCompile Include="..\Classes\extentionClass\network\Util.cpp" />
+    <ClCompile Include="..\Classes\FireWork.cpp" />
+    <ClCompile Include="..\Classes\friendemploy.cpp" />
+    <ClCompile Include="..\Classes\friendemploycell.cpp" />
+    <ClCompile Include="..\Classes\friendemploylog.cpp" />
+    <ClCompile Include="..\Classes\friendemploypop.cpp" />
+    <ClCompile Include="..\Classes\friendinfo.cpp" />
+    <ClCompile Include="..\Classes\friendmain.cpp" />
+    <ClCompile Include="..\Classes\GameOver.cpp" />
+    <ClCompile Include="..\Classes\goodsItem.cpp" />
+    <ClCompile Include="..\Classes\headFile\zhujiemian\ArenaWindow.cpp" />
+    <ClCompile Include="..\Classes\headFile\zhujiemian\CustomPop.cpp" />
+    <ClCompile Include="..\Classes\headFile\zhujiemian\homePage.cpp" />
+    <ClCompile Include="..\Classes\headFile\zhujiemian\LevelMap.cpp" />
+    <ClCompile Include="..\Classes\headFile\zhujiemian\MailInfo.cpp" />
+    <ClCompile Include="..\Classes\headFile\zhujiemian\MailRead.cpp" />
+    <ClCompile Include="..\Classes\headFile\zhujiemian\MailRenderer.cpp" />
+    <ClCompile Include="..\Classes\headFile\zhujiemian\MailWindow.cpp" />
+    <ClCompile Include="..\Classes\headFile\zhujiemian\MailWrite.cpp" />
+    <ClCompile Include="..\Classes\headFile\zhujiemian\popwindow.cpp" />
+    <ClCompile Include="..\Classes\headFile\zhujiemian\zhuangtaiLoad.cpp" />
+    <ClCompile Include="..\Classes\hecheng\CHecheng.cpp" />
+    <ClCompile Include="..\Classes\hecheng\hcbag.cpp" />
+    <ClCompile Include="..\Classes\hecheng\hcgoodsitem.cpp" />
+    <ClCompile Include="..\Classes\hecheng\hctooltip.cpp" />
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp" />
+    <ClCompile Include="..\Classes\json\src\lib_json\json_reader.cpp" />
+    <ClCompile Include="..\Classes\json\src\lib_json\json_value.cpp" />
+    <ClCompile Include="..\Classes\json\src\lib_json\json_writer.cpp" />
+    <ClCompile Include="..\Classes\LodingLayer.cpp" />
+    <ClCompile Include="..\Classes\loginregister\LayerLogin.cpp" />
+    <ClCompile Include="..\Classes\loginregister\logo.cpp" />
+    <ClCompile Include="..\Classes\loginregister\startAnimate.cpp" />
+    <ClCompile Include="..\Classes\loginregister\xuanren.cpp" />
+    <ClCompile Include="..\Classes\next.cpp" />
+    <ClCompile Include="..\Classes\personalinfo.cpp" />
+    <ClCompile Include="..\Classes\PersonFire.cpp" />
+    <ClCompile Include="..\Classes\skillList.cpp" />
+    <ClCompile Include="..\Classes\TeXiao.cpp" />
+    <ClCompile Include="..\Classes\tiplayer.cpp" />
+    <ClCompile Include="..\Classes\UserDataModel.cpp" />
+    <ClCompile Include="..\Classes\utils\language\LanguageManager.cpp" />
+    <ClCompile Include="..\Classes\utils\xml\MyXmlParser.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Classes\extentionClass\network\MSAutoReleasePool.mm" />
+    <None Include="..\Classes\json\src\lib_json\json_internalarray.inl" />
+    <None Include="..\Classes\json\src\lib_json\json_internalmap.inl" />
+    <None Include="..\Classes\json\src\lib_json\json_valueiterator.inl" />
+    <None Include="..\Classes\json\src\lib_json\sconscript" />
+    <None Include="..\Classes\TestCpp.mm" />
+    <None Include="..\Classes\TestOC.m" />
+    <None Include="..\Resources\.DS_Store" />
+    <None Include="..\Resources\begin1.plist" />
+    <None Include="..\Resources\dayan4.plist" />
+    <None Include="..\Resources\dlrhtx.plist" />
+    <None Include="..\Resources\fire.plist" />
+    <None Include="..\Resources\ggjstx.plist" />
+    <None Include="..\Resources\guild.plist" />
+    <None Include="..\Resources\hero.json" />
+    <None Include="..\Resources\hlztx.plist" />
+    <None Include="..\Resources\hqztx.plist" />
+    <None Include="..\Resources\icon\.DS_Store" />
+    <None Include="..\Resources\Info.plist" />
+    <None Include="..\Resources\item.json" />
+    <None Include="..\Resources\iTunesArtwork" />
+    <None Include="..\Resources\jn_name.plist" />
+    <None Include="..\Resources\kapai.plist" />
+    <None Include="..\Resources\kszdtx.plist" />
+    <None Include="..\Resources\ldztx.plist" />
+    <None Include="..\Resources\level.json" />
+    <None Include="..\Resources\list.json" />
+    <None Include="..\Resources\ln.plist" />
+    <None Include="..\Resources\lntx.plist" />
+    <None Include="..\Resources\loading.plist" />
+    <None Include="..\Resources\map.json" />
+    <None Include="..\Resources\monster.json" />
+    <None Include="..\Resources\mrjtx.plist" />
+    <None Include="..\Resources\myztx.plist" />
+    <None Include="..\Resources\pjjtx.plist" />
+    <None Include="..\Resources\qbj.plist" />
+    <None Include="..\Resources\qbjtx.plist" />
+    <None Include="..\Resources\qstx_01.plist" />
+    <None Include="..\Resources\qstx_02.plist" />
+    <None Include="..\Resources\result_attacked.plist" />
+    <None Include="..\Resources\sdjx.plist" />
+    <None Include="..\Resources\sdjxtx.plist" />
+    <None Include="..\Resources\sfzstx.plist" />
+    <None Include="..\Resources\sjsqltx.plist" />
+    <None Include="..\Resources\sjzstx.plist" />
+    <None Include="..\Resources\skill.json" />
+    <None Include="..\Resources\slzstx.plist" />
+    <None Include="..\Resources\sqzstx.plist" />
+    <None Include="..\Resources\srzstx.plist" />
+    <None Include="..\Resources\success.plist" />
+    <None Include="..\Resources\szhtx.plist" />
+    <None Include="..\Resources\tgntx.plist" />
+    <None Include="..\Resources\tjbgztx.plist" />
+    <None Include="..\Resources\tlztx.plist" />
+    <None Include="..\Resources\touxi_1.plist" />
+    <None Include="..\Resources\txtx.plist" />
+    <None Include="..\Resources\ui_login.plist" />
+    <None Include="..\Resources\wjqftx.plist" />
+    <None Include="..\Resources\wlbftx.plist" />
+    <None Include="..\Resources\xfztx.plist" />
+    <None Include="..\Resources\xsj.plist" />
+    <None Include="..\Resources\xsjtx.plist" />
+    <None Include="..\Resources\yanwu5.plist" />
+    <None Include="..\Resources\yhlytx.plist" />
+    <None Include="..\Resources\yszstx.plist" />
+    <None Include="..\Resources\zhxjtx.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\Resources\battleAttack1.mp3" />
+    <Media Include="..\Resources\battleAttack2.mp3" />
+    <Media Include="..\Resources\battleAttack3.mp3" />
+    <Media Include="..\Resources\bg 17-40-06-291.mp3" />
+    <Media Include="..\Resources\bg.mp3" />
+    <Media Include="..\Resources\bg2.mp3" />
+    <Media Include="..\Resources\yx.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\arenawindow_bkg.png" />
+    <Image Include="..\Resources\arena_btn_bat_1.png" />
+    <Image Include="..\Resources\arena_btn_bat_2.png" />
+    <Image Include="..\Resources\arena_item_bkg.png" />
+    <Image Include="..\Resources\attacked_img.png" />
+    <Image Include="..\Resources\attack_img.png" />
+    <Image Include="..\Resources\base.png" />
+    <Image Include="..\Resources\base_add.png" />
+    <Image Include="..\Resources\begin1.png" />
+    <Image Include="..\Resources\btn_return_1.png" />
+    <Image Include="..\Resources\btn_return_2.png" />
+    <Image Include="..\Resources\bz_bkg.png" />
+    <Image Include="..\Resources\CloseNormal.png" />
+    <Image Include="..\Resources\CloseSelected.png" />
+    <Image Include="..\Resources\common_add.png" />
+    <Image Include="..\Resources\common_btn_close_1.png" />
+    <Image Include="..\Resources\common_btn_close_2.png" />
+    <Image Include="..\Resources\common_btn_ok_1.png" />
+    <Image Include="..\Resources\common_btn_ok_2.png" />
+    <Image Include="..\Resources\common_btn_ok_3.png" />
+    <Image Include="..\Resources\common_btn_return_1.png" />
+    <Image Include="..\Resources\common_btn_return_11.png" />
+    <Image Include="..\Resources\common_btn_return_2.png" />
+    <Image Include="..\Resources\common_btn_return_22.png" />
+    <Image Include="..\Resources\common_btn_return_3.png" />
+    <Image Include="..\Resources\common_btn_send_1.png" />
+    <Image Include="..\Resources\common_btn_send_2.png" />
+    <Image Include="..\Resources\common_item_bkg.png" />
+    <Image Include="..\Resources\common_item_bkg1.png" />
+    <Image Include="..\Resources\common_pop_bkg.png" />
+    <Image Include="..\Resources\common_pop_text_bkg.png" />
+    <Image Include="..\Resources\common_qs_bkg_1.png" />
+    <Image Include="..\Resources\common_qs_bkg_4.png" />
+    <Image Include="..\Resources\common_sbtn_ok_1.png" />
+    <Image Include="..\Resources\common_sbtn_ok_2.png" />
+    <Image Include="..\Resources\common_sbtn_ok_3.png" />
+    <Image Include="..\Resources\dayan4.png" />
+    <Image Include="..\Resources\Default.png" />
+    <Image Include="..\Resources\dlrhtx.png" />
+    <Image Include="..\Resources\employedfriend.png" />
+    <Image Include="..\Resources\employedfriend_item_bkg.png" />
+    <Image Include="..\Resources\employfriend_item_bkg.png" />
+    <Image Include="..\Resources\employfriend_tiaomu.png" />
+    <Image Include="..\Resources\employ_bkg.png" />
+    <Image Include="..\Resources\emptyBlood.png" />
+    <Image Include="..\Resources\emptyhuoli.png" />
+    <Image Include="..\Resources\faguang.png" />
+    <Image Include="..\Resources\ff-1.png" />
+    <Image Include="..\Resources\ff-2.png" />
+    <Image Include="..\Resources\firefaild.png" />
+    <Image Include="..\Resources\fireresult_bkg.png" />
+    <Image Include="..\Resources\firework_bkg.png" />
+    <Image Include="..\Resources\fire_1.png" />
+    <Image Include="..\Resources\friendmain_bkg.png" />
+    <Image Include="..\Resources\friendmain_btn_emply_1.png" />
+    <Image Include="..\Resources\friendmain_btn_emply_2.png" />
+    <Image Include="..\Resources\friendmain_btn_log_1.png" />
+    <Image Include="..\Resources\friendmain_btn_log_2.png" />
+    <Image Include="..\Resources\ggjstx.png" />
+    <Image Include="..\Resources\guild 17-40-08-904.png" />
+    <Image Include="..\Resources\guild.png" />
+    <Image Include="..\Resources\hc_bkg.png" />
+    <Image Include="..\Resources\hc_btn_hc_1.png" />
+    <Image Include="..\Resources\hc_btn_hc_2.png" />
+    <Image Include="..\Resources\hc_btn_hc_3.png" />
+    <Image Include="..\Resources\HelloWorld.png" />
+    <Image Include="..\Resources\hlztx.png" />
+    <Image Include="..\Resources\hqztx.png" />
+    <Image Include="..\Resources\huodewupin.png" />
+    <Image Include="..\Resources\icon\Icon%402x.png" />
+    <Image Include="..\Resources\icon\Icon-144.png" />
+    <Image Include="..\Resources\icon\Icon-72.png" />
+    <Image Include="..\Resources\icon\Icon-Small%402x.png" />
+    <Image Include="..\Resources\icon\Icon-Small-50.png" />
+    <Image Include="..\Resources\icon\Icon-Small.png" />
+    <Image Include="..\Resources\icon\Icon.png" />
+    <Image Include="..\Resources\item_1.png" />
+    <Image Include="..\Resources\item_10.png" />
+    <Image Include="..\Resources\item_100006.png" />
+    <Image Include="..\Resources\item_100007.png" />
+    <Image Include="..\Resources\item_100008.png" />
+    <Image Include="..\Resources\item_100011.png" />
+    <Image Include="..\Resources\item_100015.png" />
+    <Image Include="..\Resources\item_100016.png" />
+    <Image Include="..\Resources\item_100017.png" />
+    <Image Include="..\Resources\item_100019.png" />
+    <Image Include="..\Resources\item_100020.png" />
+    <Image Include="..\Resources\item_100022.png" />
+    <Image Include="..\Resources\item_100024.png" />
+    <Image Include="..\Resources\item_100025.png" />
+    <Image Include="..\Resources\item_100029.png" />
+    <Image Include="..\Resources\item_100030.png" />
+    <Image Include="..\Resources\item_100031.png" />
+    <Image Include="..\Resources\item_11.png" />
+    <Image Include="..\Resources\item_12.png" />
+    <Image Include="..\Resources\item_13.png" />
+    <Image Include="..\Resources\item_14.png" />
+    <Image Include="..\Resources\item_15.png" />
+    <Image Include="..\Resources\item_16.png" />
+    <Image Include="..\Resources\item_17.png" />
+    <Image Include="..\Resources\item_18.png" />
+    <Image Include="..\Resources\item_19.png" />
+    <Image Include="..\Resources\item_2.png" />
+    <Image Include="..\Resources\item_20.png" />
+    <Image Include="..\Resources\item_21.png" />
+    <Image Include="..\Resources\item_22.png" />
+    <Image Include="..\Resources\item_3.png" />
+    <Image Include="..\Resources\item_4.png" />
+    <Image Include="..\Resources\item_5.png" />
+    <Image Include="..\Resources\item_6.png" />
+    <Image Include="..\Resources\item_7.png" />
+    <Image Include="..\Resources\item_8.png" />
+    <Image Include="..\Resources\item_9.png" />
+    <Image Include="..\Resources\jn_name.png" />
+    <Image Include="..\Resources\kong.png" />
+    <Image Include="..\Resources\kszdtx.png" />
+    <Image Include="..\Resources\ldztx.png" />
+    <Image Include="..\Resources\ln.png" />
+    <Image Include="..\Resources\lntx.png" />
+    <Image Include="..\Resources\loading.png" />
+    <Image Include="..\Resources\mailwindow_bkg.png" />
+    <Image Include="..\Resources\mail_btn_write_1.png" />
+    <Image Include="..\Resources\mail_btn_write_2.png" />
+    <Image Include="..\Resources\mail_noread.png" />
+    <Image Include="..\Resources\mail_read.png" />
+    <Image Include="..\Resources\mail_read_bkg.png" />
+    <Image Include="..\Resources\mail_write_bkg.png" />
+    <Image Include="..\Resources\map1.png" />
+    <Image Include="..\Resources\map2.png" />
+    <Image Include="..\Resources\map3.png" />
+    <Image Include="..\Resources\mitem_bkg.png" />
+    <Image Include="..\Resources\mrjtx.png" />
+    <Image Include="..\Resources\myztx.png" />
+    <Image Include="..\Resources\ns-1.png" />
+    <Image Include="..\Resources\ns-2.png" />
+    <Image Include="..\Resources\number.png" />
+    <Image Include="..\Resources\personalinfo_bkg.png" />
+    <Image Include="..\Resources\persons_bg.png" />
+    <Image Include="..\Resources\pjjtx.png" />
+    <Image Include="..\Resources\PK_blood.png" />
+    <Image Include="..\Resources\popbuilding_buzhen_1.png" />
+    <Image Include="..\Resources\popbuilding_buzhen_2.png" />
+    <Image Include="..\Resources\popbuilding_buzhen_bkg.png" />
+    <Image Include="..\Resources\popbuilding_fire_1.png" />
+    <Image Include="..\Resources\popbuilding_fire_2.png" />
+    <Image Include="..\Resources\popbuilding_fire_3.png" />
+    <Image Include="..\Resources\popbuilding_gold.png" />
+    <Image Include="..\Resources\popbuilding_wei.png" />
+    <Image Include="..\Resources\popbuilding_wu.png" />
+    <Image Include="..\Resources\qbj.png" />
+    <Image Include="..\Resources\qbjtx.png" />
+    <Image Include="..\Resources\qstx_01.png" />
+    <Image Include="..\Resources\qstx_02.png" />
+    <Image Include="..\Resources\qs_0001.png" />
+    <Image Include="..\Resources\qs_0002.png" />
+    <Image Include="..\Resources\qs_0003.png" />
+    <Image Include="..\Resources\qs_6000.png" />
+    <Image Include="..\Resources\qs_6001.png" />
+    <Image Include="..\Resources\qs_6002.png" />
+    <Image Include="..\Resources\qs_6003.png" />
+    <Image Include="..\Resources\qs_6004.png" />
+    <Image Include="..\Resources\qs_6007.png" />
+    <Image Include="..\Resources\qs_6012.png" />
+    <Image Include="..\Resources\qs_6013.png" />
+    <Image Include="..\Resources\qs_6014.png" />
+    <Image Include="..\Resources\qs_6016.png" />
+    <Image Include="..\Resources\qs_6023.png" />
+    <Image Include="..\Resources\qs_6024.png" />
+    <Image Include="..\Resources\qs_6029.png" />
+    <Image Include="..\Resources\qs_6033.png" />
+    <Image Include="..\Resources\qs_6037.png" />
+    <Image Include="..\Resources\qs_6038.png" />
+    <Image Include="..\Resources\qs_6042.png" />
+    <Image Include="..\Resources\qs_6044.png" />
+    <Image Include="..\Resources\qs_6045.png" />
+    <Image Include="..\Resources\qs_6046.png" />
+    <Image Include="..\Resources\qs_6048.png" />
+    <Image Include="..\Resources\qs_6049.png" />
+    <Image Include="..\Resources\qs_6050.png" />
+    <Image Include="..\Resources\qs_6056.png" />
+    <Image Include="..\Resources\result_attacked.png" />
+    <Image Include="..\Resources\sdjx.png" />
+    <Image Include="..\Resources\sdjxtx.png" />
+    <Image Include="..\Resources\selectrole_bkg.png" />
+    <Image Include="..\Resources\sfzstx.png" />
+    <Image Include="..\Resources\sjsqltx.png" />
+    <Image Include="..\Resources\sjzstx.png" />
+    <Image Include="..\Resources\slzstx.png" />
+    <Image Include="..\Resources\sqzstx.png" />
+    <Image Include="..\Resources\srzstx.png" />
+    <Image Include="..\Resources\starbg.png" />
+    <Image Include="..\Resources\start_xr.png" />
+    <Image Include="..\Resources\start_xr1.png" />
+    <Image Include="..\Resources\success.png" />
+    <Image Include="..\Resources\szhtx.png" />
+    <Image Include="..\Resources\tgntx.png" />
+    <Image Include="..\Resources\tjbgbuff.png" />
+    <Image Include="..\Resources\tjbgztx.png" />
+    <Image Include="..\Resources\tlztx.png" />
+    <Image Include="..\Resources\txtx.png" />
+    <Image Include="..\Resources\ui_login.png" />
+    <Image Include="..\Resources\wjqftx.png" />
+    <Image Include="..\Resources\wlbftx.png" />
+    <Image Include="..\Resources\words.png" />
+    <Image Include="..\Resources\words1.png" />
+    <Image Include="..\Resources\words2.png" />
+    <Image Include="..\Resources\words3.png" />
+    <Image Include="..\Resources\xfztx.png" />
+    <Image Include="..\Resources\xsj.png" />
+    <Image Include="..\Resources\xsjbuff.png" />
+    <Image Include="..\Resources\yanwu5.png" />
+    <Image Include="..\Resources\yhlytx.png" />
+    <Image Include="..\Resources\yszsbuff.png" />
+    <Image Include="..\Resources\yszstx.png" />
+    <Image Include="..\Resources\zhxjtx.png" />
+    <Image Include="..\Resources\zjm_arena_1.png" />
+    <Image Include="..\Resources\zjm_arena_2.png" />
+    <Image Include="..\Resources\zjm_bkg.png" />
+    <Image Include="..\Resources\zjm_building_1.png" />
+    <Image Include="..\Resources\zjm_building_2.png" />
+    <Image Include="..\Resources\zjm_employfriends_1.png" />
+    <Image Include="..\Resources\zjm_employfriends_2.png" />
+    <Image Include="..\Resources\zjm_hc_1.png" />
+    <Image Include="..\Resources\zjm_hc_2.png" />
+    <Image Include="..\Resources\zjm_linkhome_1.png" />
+    <Image Include="..\Resources\zjm_linkhome_2.png" />
+    <Image Include="..\Resources\zjm_linkrecharge_1.png" />
+    <Image Include="..\Resources\zjm_linkrecharge_2.png" />
+    <Image Include="..\Resources\zjm_mail_1.png" />
+    <Image Include="..\Resources\zjm_mail_2.png" />
+    <Image Include="..\Resources\zjm_personal_1.png" />
+    <Image Include="..\Resources\zjm_star.png" />
+    <Image Include="..\Resources\zt_bkg.png" />
+    <Image Include="..\Resources\zt_exp_bar.png" />
+    <Image Include="..\Resources\zxjtx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\Resources\hycc.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\Resources\dlrh.xml" />
+    <Xml Include="..\Resources\ggjs.xml" />
+    <Xml Include="..\Resources\hlz.xml" />
+    <Xml Include="..\Resources\hqz.xml" />
+    <Xml Include="..\Resources\kszd.xml" />
+    <Xml Include="..\Resources\language.xml" />
+    <Xml Include="..\Resources\ldz.xml" />
+    <Xml Include="..\Resources\ln.xml" />
+    <Xml Include="..\Resources\mrj.xml" />
+    <Xml Include="..\Resources\mutileTX_01.xml" />
+    <Xml Include="..\Resources\mutileTX_02.xml" />
+    <Xml Include="..\Resources\mutileTX_03.xml" />
+    <Xml Include="..\Resources\myz.xml" />
+    <Xml Include="..\Resources\pjj.xml" />
+    <Xml Include="..\Resources\qbj.xml" />
+    <Xml Include="..\Resources\qishouTX.xml" />
+    <Xml Include="..\Resources\sdjx.xml" />
+    <Xml Include="..\Resources\sfzs.xml" />
+    <Xml Include="..\Resources\simpleTX.xml" />
+    <Xml Include="..\Resources\sjsql.xml" />
+    <Xml Include="..\Resources\sjzs.xml" />
+    <Xml Include="..\Resources\skill22.xml" />
+    <Xml Include="..\Resources\slzs.xml" />
+    <Xml Include="..\Resources\sqzs.xml" />
+    <Xml Include="..\Resources\srzs.xml" />
+    <Xml Include="..\Resources\szh.xml" />
+    <Xml Include="..\Resources\tgn.xml" />
+    <Xml Include="..\Resources\tjbgz.xml" />
+    <Xml Include="..\Resources\tx.xml" />
+    <Xml Include="..\Resources\wjqf.xml" />
+    <Xml Include="..\Resources\wlbf.xml" />
+    <Xml Include="..\Resources\xfz.xml" />
+    <Xml Include="..\Resources\xsj.xml" />
+    <Xml Include="..\Resources\yhly.xml" />
+    <Xml Include="..\Resources\yszs.xml" />
+    <Xml Include="..\Resources\zhxj.xml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

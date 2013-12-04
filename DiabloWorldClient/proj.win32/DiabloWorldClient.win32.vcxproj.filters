@@ -1,0 +1,1615 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{259bad48-4c57-420f-bd2b-c04f96f7b958}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{d132e787-4393-49e1-a940-f6538a51f454}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{e21310e7-c446-49a7-ae36-6f5f108b19e2}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+    <Filter Include="resource\icon">
+      <UniqueIdentifier>{27db3552-6fbc-4c0c-bd35-4a918800ddf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\buzhen">
+      <UniqueIdentifier>{d312701a-973f-4176-8498-c94f0cbdb61f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\buzhen">
+      <UniqueIdentifier>{80602b84-ab4b-4c84-8599-5f5b8a15bb7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\employment">
+      <UniqueIdentifier>{74cd64ed-bdef-45a1-a299-a278ece8893f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\employment">
+      <UniqueIdentifier>{e4cab512-5f8b-4d48-b4c9-7535aef3c385}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\extentionClass">
+      <UniqueIdentifier>{d30a0f35-0fb1-4b5d-9714-66b3bc852acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\extentionClass">
+      <UniqueIdentifier>{bf9809b4-a2fe-41c7-b981-959595818bed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\haoyou">
+      <UniqueIdentifier>{50bc6716-9a73-43ca-83c3-48be33662830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\haoyou">
+      <UniqueIdentifier>{335cdbaf-46b2-490c-83c3-c903c96b2905}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\headFile">
+      <UniqueIdentifier>{2cdb2c46-f86b-47c6-98e0-1473d8511140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\headFile">
+      <UniqueIdentifier>{1cf52afb-dce3-418c-b55d-7d2ff3ffa341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\hecheng">
+      <UniqueIdentifier>{7a7235d4-4e5a-40ad-99f6-44a24c7bacd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\hecheng">
+      <UniqueIdentifier>{12497be8-e061-49eb-9492-2ce8c96305b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\json">
+      <UniqueIdentifier>{9fe09f4e-7a02-4d99-bc96-fe649d69e4f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\json">
+      <UniqueIdentifier>{f9b833ca-ff76-4378-b7a6-2d7a0fadd4e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\liaotian">
+      <UniqueIdentifier>{9c4e0dc2-f7ac-4149-b92c-8b22bf8a8ed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\liaotian">
+      <UniqueIdentifier>{1caba3af-172b-4be8-869b-61d590b88c86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\loginregister">
+      <UniqueIdentifier>{a6918c19-24b7-456b-9a6b-02cb6e664c6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\loginregister">
+      <UniqueIdentifier>{1d66d750-9cdf-4217-b0f4-d46b74e06d99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\mycomponent">
+      <UniqueIdentifier>{fe73444a-f80a-4305-9e05-a0c385630152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\mycomponent">
+      <UniqueIdentifier>{48d276f6-f22c-43d0-8c4c-e47fea478b86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\utils">
+      <UniqueIdentifier>{1a2ea0e1-d236-4822-aa63-aea10b54722d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\utils">
+      <UniqueIdentifier>{505b64ce-bb22-4fa1-8450-c195efa1c0b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\xuanzerenwu">
+      <UniqueIdentifier>{ba0aa5b1-a2ae-4ce3-9592-d506c23b1403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\xuanzerenwu">
+      <UniqueIdentifier>{b50f0fe5-ac5a-44d9-b0da-7a4b3ae82395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\extentionClass\network">
+      <UniqueIdentifier>{56195ab7-2df7-41b8-a318-64cefe8b6902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\extentionClass\network">
+      <UniqueIdentifier>{9ae392f7-1f45-4631-8379-a651f998fc9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\headFile\zhujiemian">
+      <UniqueIdentifier>{1d736803-b061-4448-ad36-9a38c82004f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\headFile\zhujiemian">
+      <UniqueIdentifier>{cdc63156-24ca-41d8-9b75-3a3e938aff80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\json\include">
+      <UniqueIdentifier>{63b16cbf-c4e2-47d2-9518-aa185017c1bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\json\src">
+      <UniqueIdentifier>{79b86e8b-1c4d-44fe-9df1-71a4ec8a2179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\json\include">
+      <UniqueIdentifier>{0bc61e8f-428d-4181-a68e-faa45d275b85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\json\src">
+      <UniqueIdentifier>{35bb9a11-78f7-45fd-8dae-35e1b068ad1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\json\include\json">
+      <UniqueIdentifier>{4beb6656-52f0-435e-a79e-27880963696a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\json\include\json">
+      <UniqueIdentifier>{956be408-e1c7-4d38-8bb0-12fc079003bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\json\src\lib_json">
+      <UniqueIdentifier>{bde7a0f0-567b-4559-9557-2e2ab508e1be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\json\src\lib_json">
+      <UniqueIdentifier>{9dad5d37-60a4-4556-a092-5253779ca6a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\utils\language">
+      <UniqueIdentifier>{5e3847d5-d4f9-4c6b-a617-1309f38fb654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\utils\language">
+      <UniqueIdentifier>{5b33acb2-cba7-4f6e-8ce7-443928bb28e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\utils\xml">
+      <UniqueIdentifier>{38441ce0-3dd9-437e-ba6a-462f62d63ce5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\utils\xml">
+      <UniqueIdentifier>{2951bfb7-9fc9-4d2f-ba0e-a3cdb5f29f82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AnimatePacker.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CData.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FireWork.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\friendemploy.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\friendemploycell.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\friendemploylog.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\friendemploypop.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\friendinfo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\friendmain.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameOver.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\goodsItem.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LodingLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\next.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\personalinfo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PersonFire.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Singleton.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\skillList.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TestCpp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TestOC.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TeXiao.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tiplayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UserDataModel.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\buzhen\heroItem.h">
+      <Filter>include\buzhen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\buzhen\newBuZhen.h">
+      <Filter>include\buzhen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\employment\friendemploy.h">
+      <Filter>include\employment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\employment\friendemploycell.h">
+      <Filter>include\employment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\employment\friendemploylog.h">
+      <Filter>include\employment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\employment\friendemploypop.h">
+      <Filter>include\employment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\employment\friendinfo.h">
+      <Filter>include\employment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\employment\friendmain.h">
+      <Filter>include\employment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\extentionClass\MyMenu.h">
+      <Filter>include\extentionClass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\extentionClass\MyTableView.h">
+      <Filter>include\extentionClass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\extentionClass\network\ByteBuffer.h">
+      <Filter>include\extentionClass\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\extentionClass\network\message.h">
+      <Filter>include\extentionClass\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\extentionClass\network\MessageHandler.h">
+      <Filter>include\extentionClass\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\extentionClass\network\MessageQueue.h">
+      <Filter>include\extentionClass\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\extentionClass\network\MSAutoReleasePool.h">
+      <Filter>include\extentionClass\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\extentionClass\network\SocketClient.h">
+      <Filter>include\extentionClass\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\extentionClass\network\SocketManager.h">
+      <Filter>include\extentionClass\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\extentionClass\network\Util.h">
+      <Filter>include\extentionClass\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\headFile\zhujiemian\ArenaWindow.h">
+      <Filter>include\headFile\zhujiemian</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\headFile\zhujiemian\CustomPop.h">
+      <Filter>include\headFile\zhujiemian</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\headFile\zhujiemian\homePage.h">
+      <Filter>include\headFile\zhujiemian</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\headFile\zhujiemian\LevelMap.h">
+      <Filter>include\headFile\zhujiemian</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\headFile\zhujiemian\MailInfo.h">
+      <Filter>include\headFile\zhujiemian</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\headFile\zhujiemian\MailRead.h">
+      <Filter>include\headFile\zhujiemian</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\headFile\zhujiemian\MailRenderer.h">
+      <Filter>include\headFile\zhujiemian</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\headFile\zhujiemian\MailWindow.h">
+      <Filter>include\headFile\zhujiemian</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\headFile\zhujiemian\MailWrite.h">
+      <Filter>include\headFile\zhujiemian</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\headFile\zhujiemian\myobject.h">
+      <Filter>include\headFile\zhujiemian</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\headFile\zhujiemian\popwindow.h">
+      <Filter>include\headFile\zhujiemian</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\headFile\zhujiemian\zhuangtaiLoad.h">
+      <Filter>include\headFile\zhujiemian</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\headFile\resource.h">
+      <Filter>include\headFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\headFile\socketIp_Host.h">
+      <Filter>include\headFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hecheng\CHecheng.h">
+      <Filter>include\hecheng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hecheng\hcbag.h">
+      <Filter>include\hecheng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hecheng\hcgoodsitem.h">
+      <Filter>include\hecheng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hecheng\hcitemdata.h">
+      <Filter>include\hecheng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hecheng\hctooltip.h">
+      <Filter>include\hecheng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\json\include\json\autolink.h">
+      <Filter>include\json\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\json\include\json\config.h">
+      <Filter>include\json\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\json\include\json\features.h">
+      <Filter>include\json\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\json\include\json\forwards.h">
+      <Filter>include\json\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\json\include\json\json.h">
+      <Filter>include\json\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\json\include\json\reader.h">
+      <Filter>include\json\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\json\include\json\value.h">
+      <Filter>include\json\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\json\include\json\writer.h">
+      <Filter>include\json\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\json\src\lib_json\json_batchallocator.h">
+      <Filter>include\json\src\lib_json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\loginregister\LayerLogin.h">
+      <Filter>include\loginregister</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\loginregister\logo.h">
+      <Filter>include\loginregister</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\loginregister\startAnimate.h">
+      <Filter>include\loginregister</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\loginregister\xuanren.h">
+      <Filter>include\loginregister</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mycomponent\MyTableViewCell.h">
+      <Filter>include\mycomponent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utils\language\LanguageManager.h">
+      <Filter>include\utils\language</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utils\xml\MyXmlParser.h">
+      <Filter>include\utils\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utils\commond.h">
+      <Filter>include\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AnimatePacker.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CData.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FireWork.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\friendemploy.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\friendemploycell.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\friendemploylog.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\friendemploypop.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\friendinfo.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\friendmain.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameOver.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\goodsItem.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LodingLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\next.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\personalinfo.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PersonFire.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\skillList.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TeXiao.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tiplayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UserDataModel.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\buzhen\heroItem.cpp">
+      <Filter>source\buzhen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\buzhen\newBuZhen.cpp">
+      <Filter>source\buzhen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\employment\friendemploy.cpp">
+      <Filter>source\employment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\employment\friendemploycell.cpp">
+      <Filter>source\employment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\employment\friendemploylog.cpp">
+      <Filter>source\employment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\employment\friendemploypop.cpp">
+      <Filter>source\employment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\employment\friendinfo.cpp">
+      <Filter>source\employment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\employment\friendmain.cpp">
+      <Filter>source\employment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\extentionClass\MyMenu.cpp">
+      <Filter>source\extentionClass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\extentionClass\MyTableView.cpp">
+      <Filter>source\extentionClass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\extentionClass\network\ByteBuffer.cpp">
+      <Filter>source\extentionClass\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\extentionClass\network\message.cpp">
+      <Filter>source\extentionClass\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\extentionClass\network\MessageQueue.cpp">
+      <Filter>source\extentionClass\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\extentionClass\network\SocketClient.cpp">
+      <Filter>source\extentionClass\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\extentionClass\network\SocketManager.cpp">
+      <Filter>source\extentionClass\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\extentionClass\network\Util.cpp">
+      <Filter>source\extentionClass\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\headFile\zhujiemian\ArenaWindow.cpp">
+      <Filter>source\headFile\zhujiemian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\headFile\zhujiemian\CustomPop.cpp">
+      <Filter>source\headFile\zhujiemian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\headFile\zhujiemian\homePage.cpp">
+      <Filter>source\headFile\zhujiemian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\headFile\zhujiemian\LevelMap.cpp">
+      <Filter>source\headFile\zhujiemian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\headFile\zhujiemian\MailInfo.cpp">
+      <Filter>source\headFile\zhujiemian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\headFile\zhujiemian\MailRead.cpp">
+      <Filter>source\headFile\zhujiemian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\headFile\zhujiemian\MailRenderer.cpp">
+      <Filter>source\headFile\zhujiemian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\headFile\zhujiemian\MailWindow.cpp">
+      <Filter>source\headFile\zhujiemian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\headFile\zhujiemian\MailWrite.cpp">
+      <Filter>source\headFile\zhujiemian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\headFile\zhujiemian\popwindow.cpp">
+      <Filter>source\headFile\zhujiemian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\headFile\zhujiemian\zhuangtaiLoad.cpp">
+      <Filter>source\headFile\zhujiemian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hecheng\CHecheng.cpp">
+      <Filter>source\hecheng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hecheng\hcbag.cpp">
+      <Filter>source\hecheng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hecheng\hcgoodsitem.cpp">
+      <Filter>source\hecheng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hecheng\hctooltip.cpp">
+      <Filter>source\hecheng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\json\src\lib_json\json_reader.cpp">
+      <Filter>source\json\src\lib_json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\json\src\lib_json\json_value.cpp">
+      <Filter>source\json\src\lib_json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\json\src\lib_json\json_writer.cpp">
+      <Filter>source\json\src\lib_json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\loginregister\LayerLogin.cpp">
+      <Filter>source\loginregister</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\loginregister\logo.cpp">
+      <Filter>source\loginregister</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\loginregister\startAnimate.cpp">
+      <Filter>source\loginregister</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\loginregister\xuanren.cpp">
+      <Filter>source\loginregister</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\utils\language\LanguageManager.cpp">
+      <Filter>source\utils\language</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\utils\xml\MyXmlParser.cpp">
+      <Filter>source\utils\xml</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Classes\TestOC.m">
+      <Filter>source</Filter>
+    </None>
+    <None Include="..\Classes\TestCpp.mm">
+      <Filter>source</Filter>
+    </None>
+    <None Include="..\Resources\.DS_Store">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\hero.json">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\item.json">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\level.json">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\list.json">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\map.json">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\monster.json">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\skill.json">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\begin1.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\dayan4.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\dlrhtx.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\fire.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ggjstx.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\guild.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\hlztx.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\hqztx.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Info.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\jn_name.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\kapai.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\kszdtx.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ldztx.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ln.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\lntx.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\loading.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\mrjtx.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\myztx.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\pjjtx.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\qbj.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\qbjtx.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\qstx_01.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\qstx_02.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\result_attacked.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\sdjx.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\sdjxtx.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\sfzstx.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\sjsqltx.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\sjzstx.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\slzstx.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\sqzstx.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\srzstx.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\success.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\szhtx.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\tgntx.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\tjbgztx.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\tlztx.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\touxi_1.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\txtx.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui_login.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\wjqftx.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\wlbftx.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\xfztx.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\xsj.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\xsjtx.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\yanwu5.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\yhlytx.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\yszstx.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\zhxjtx.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\iTunesArtwork">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\icon\.DS_Store">
+      <Filter>resource\icon</Filter>
+    </None>
+    <None Include="..\Classes\extentionClass\network\MSAutoReleasePool.mm">
+      <Filter>source\extentionClass\network</Filter>
+    </None>
+    <None Include="..\Classes\json\src\lib_json\json_internalarray.inl">
+      <Filter>source\json\src\lib_json</Filter>
+    </None>
+    <None Include="..\Classes\json\src\lib_json\json_internalmap.inl">
+      <Filter>source\json\src\lib_json</Filter>
+    </None>
+    <None Include="..\Classes\json\src\lib_json\json_valueiterator.inl">
+      <Filter>source\json\src\lib_json</Filter>
+    </None>
+    <None Include="..\Classes\json\src\lib_json\sconscript">
+      <Filter>source\json\src\lib_json</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\Resources\battleAttack1.mp3">
+      <Filter>resource</Filter>
+    </Media>
+    <Media Include="..\Resources\battleAttack2.mp3">
+      <Filter>resource</Filter>
+    </Media>
+    <Media Include="..\Resources\battleAttack3.mp3">
+      <Filter>resource</Filter>
+    </Media>
+    <Media Include="..\Resources\bg 17-40-06-291.mp3">
+      <Filter>resource</Filter>
+    </Media>
+    <Media Include="..\Resources\bg.mp3">
+      <Filter>resource</Filter>
+    </Media>
+    <Media Include="..\Resources\bg2.mp3">
+      <Filter>resource</Filter>
+    </Media>
+    <Media Include="..\Resources\yx.mp3">
+      <Filter>resource</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\arena_btn_bat_1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\arena_btn_bat_2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\arena_item_bkg.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\arenawindow_bkg.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\attack_img.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\attacked_img.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\base.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\base_add.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\begin1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\btn_return_1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\btn_return_2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\bz_bkg.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\CloseNormal.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\CloseSelected.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\common_add.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\common_btn_close_1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\common_btn_close_2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\common_btn_ok_1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\common_btn_ok_2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\common_btn_ok_3.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\common_btn_return_1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\common_btn_return_2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\common_btn_return_3.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\common_btn_return_11.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\common_btn_return_22.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\common_btn_send_1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\common_btn_send_2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\common_item_bkg.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\common_item_bkg1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\common_pop_bkg.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\common_pop_text_bkg.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\common_qs_bkg_1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\common_qs_bkg_4.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\common_sbtn_ok_1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\common_sbtn_ok_2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\common_sbtn_ok_3.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\dayan4.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\Default.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\dlrhtx.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\employ_bkg.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\employedfriend.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\employedfriend_item_bkg.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\employfriend_item_bkg.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\employfriend_tiaomu.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\emptyBlood.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\emptyhuoli.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\faguang.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\ff-1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\ff-2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\fire_1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\firefaild.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\fireresult_bkg.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\firework_bkg.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\friendmain_bkg.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\friendmain_btn_emply_1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\friendmain_btn_emply_2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\friendmain_btn_log_1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\friendmain_btn_log_2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\ggjstx.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\guild 17-40-08-904.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\guild.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\hc_bkg.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\hc_btn_hc_1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\hc_btn_hc_2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\hc_btn_hc_3.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\HelloWorld.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\hlztx.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\hqztx.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\huodewupin.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_3.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_4.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_5.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_6.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_7.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_8.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_9.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_10.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_11.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_12.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_13.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_14.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_15.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_16.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_17.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_18.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_19.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_20.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_21.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_22.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_100006.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_100007.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_100008.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_100011.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_100015.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_100016.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_100017.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_100019.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_100020.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_100022.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_100024.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_100025.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_100029.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_100030.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\item_100031.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\jn_name.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\kong.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\kszdtx.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\ldztx.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\ln.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\lntx.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\loading.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\mail_btn_write_1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\mail_btn_write_2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\mail_noread.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\mail_read.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\mail_read_bkg.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\mail_write_bkg.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\mailwindow_bkg.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\map1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\map2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\map3.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\mitem_bkg.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\mrjtx.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\myztx.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\ns-1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\ns-2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\number.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\personalinfo_bkg.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\persons_bg.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\pjjtx.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\PK_blood.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\popbuilding_buzhen_1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\popbuilding_buzhen_2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\popbuilding_buzhen_bkg.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\popbuilding_fire_1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\popbuilding_fire_2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\popbuilding_fire_3.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\popbuilding_gold.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\popbuilding_wei.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\popbuilding_wu.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\qbj.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\qbjtx.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\qs_0001.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\qs_0002.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\qs_0003.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\qs_6000.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\qs_6001.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\qs_6002.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\qs_6003.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\qs_6004.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\qs_6007.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\qs_6012.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\qs_6013.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\qs_6014.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\qs_6016.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\qs_6023.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\qs_6024.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\qs_6029.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\qs_6033.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\qs_6037.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\qs_6038.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\qs_6042.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\qs_6044.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\qs_6045.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\qs_6046.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\qs_6048.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\qs_6049.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\qs_6050.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\qs_6056.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\qstx_01.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\qstx_02.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\result_attacked.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\sdjx.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\sdjxtx.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\selectrole_bkg.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\sfzstx.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\sjsqltx.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\sjzstx.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\slzstx.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\sqzstx.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\srzstx.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\starbg.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\start_xr.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\start_xr1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\success.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\szhtx.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\tgntx.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\tjbgbuff.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\tjbgztx.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\tlztx.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\txtx.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\ui_login.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\wjqftx.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\wlbftx.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\words.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\words1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\words2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\words3.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\xfztx.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\xsj.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\xsjbuff.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\yanwu5.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\yhlytx.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\yszsbuff.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\yszstx.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\zhxjtx.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\zjm_arena_1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\zjm_arena_2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\zjm_bkg.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\zjm_building_1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\zjm_building_2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\zjm_employfriends_1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\zjm_employfriends_2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\zjm_hc_1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\zjm_hc_2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\zjm_linkhome_1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\zjm_linkhome_2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\zjm_linkrecharge_1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\zjm_linkrecharge_2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\zjm_mail_1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\zjm_mail_2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\zjm_personal_1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\zjm_star.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\zt_bkg.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\zt_exp_bar.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\zxjtx.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\icon\Icon.png">
+      <Filter>resource\icon</Filter>
+    </Image>
+    <Image Include="..\Resources\icon\Icon%402x.png">
+      <Filter>resource\icon</Filter>
+    </Image>
+    <Image Include="..\Resources\icon\Icon-72.png">
+      <Filter>resource\icon</Filter>
+    </Image>
+    <Image Include="..\Resources\icon\Icon-144.png">
+      <Filter>resource\icon</Filter>
+    </Image>
+    <Image Include="..\Resources\icon\Icon-Small.png">
+      <Filter>resource\icon</Filter>
+    </Image>
+    <Image Include="..\Resources\icon\Icon-Small%402x.png">
+      <Filter>resource\icon</Filter>
+    </Image>
+    <Image Include="..\Resources\icon\Icon-Small-50.png">
+      <Filter>resource\icon</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\Resources\hycc.ttf">
+      <Filter>resource</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\Resources\dlrh.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\ggjs.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\hlz.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\hqz.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\kszd.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\language.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\ldz.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\ln.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\mrj.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\mutileTX_01.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\mutileTX_02.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\mutileTX_03.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\myz.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\pjj.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\qbj.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\qishouTX.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\sdjx.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\sfzs.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\simpleTX.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\sjsql.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\sjzs.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\skill22.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\slzs.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\sqzs.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\srzs.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\szh.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\tgn.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\tjbgz.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\tx.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\wjqf.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\wlbf.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\xfz.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\xsj.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\yhly.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\yszs.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\zhxj.xml">
+      <Filter>resource</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>
